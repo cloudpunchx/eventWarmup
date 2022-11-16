@@ -1,0 +1,19 @@
+WARMUP:
+
+1. Create a folder named EventWarmup, connect to Git/GitHub
+2. Create an index.html & app.js file, link them together
+3. Configure your debugger
+4. In the index.html, add an h1 tag with the text `hover me`
+5. Add an event listener that will wait for the `mouseover` event on the h1 tag
+  5.1. When this event occurs, inject a new h3 right after the h1 tag that says `secret hover!`
+6. Add an event listener that will wait for the `mouseleave` event on the h1 tag
+  6.1. When this event occurs, remove the h3 tag from the page
+7. Add an event listener that will wait for the `keydown` event on the body tag
+  7.1. When this event occurs, change the background color of the body to purple IF the key was `p`
+8. Add an event listener that will wait for the `keyup` event on the body tag
+  8.1. When this event occurs, change the background color back to white IF the key was `p`
+9. Add an image tag to the page in your HTML
+10. Add an event listener to the image that will wait for a `click` event
+ 10.1. When this occurs change the image to a new src (the image will change)
+11. Modify the logic of the event listener function to now toggle between 2 images each time the image is clicked.
+12. Add, commit and push your code
